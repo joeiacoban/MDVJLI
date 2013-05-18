@@ -43,3 +43,14 @@ var	stirFry = function(minutes) {
 var cookSomethingElse = stirFry(30);
 console.log(cookSomethingElse);
 
+// Number Function
+
+console.log("I decide to make an omelet.");
+
+
+while (eggs <= 4) {
+	var bigOmelet = "I added " + eggs + " eggs to the omelet.";
+	console.log(bigOmelet);
+	eggs = eggs + 1;
+};
+
