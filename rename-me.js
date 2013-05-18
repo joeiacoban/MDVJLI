@@ -4,6 +4,14 @@
 // Preparing Dinner
 
 // My Variables
+var eggs = 2;
+	omeletTime = "My omelet turned out good.";
+	notGood = "I burnt my omelet.";
+	timeLeftForDinner = 15;
+	dinnerChoices = ["Hot Pockets", "Ramen Noodles", "Fruit"];
+	benefits = ["is tasty.", "is quick to make.", "is healthy."];
+
+console.log("Today I have to make dinner.");
 
 // Procedure
 var chefJoeyardine = function(time) {
