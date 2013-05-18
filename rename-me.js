@@ -54,3 +54,18 @@ while (eggs <= 4) {
 	eggs = eggs + 1;
 };
 
+// String Function
+	
+var myOmelet = function(min) {
+	if (min <= 5) {
+		var dinnerTime = "I let my omelet cook for " + min + " minutes. " + omeletTime;
+		return dinnerTime;
+	} else {
+		var ohNo = "I let my omelet cook for " + min + " minutes. " + notGood;
+		return ohNo;
+	}
+};
+
+var whatNext = myOmelet(10);
+console.log(whatNext);
+
