@@ -69,3 +69,14 @@ var myOmelet = function(min) {
 var whatNext = myOmelet(10);
 console.log(whatNext);
 
+// Array Function
+	
+console.log("Great! Now I only have " + timeLeftForDinner + " minutes left to make dinner and I am super hungry!");
+	
+for (var i=0, j=dinnerChoices.length; i < j; i++) {
+	console.log("I can choose " + dinnerChoices[i] + " because it " + benefits[i]);
+
+};
+
+console.log("I go with " + dinnerChoices[0] + " because I don't really like Ramen Noodles or Fruit.");
+//
