@@ -23,3 +23,23 @@ var chefJoeyardine = function(time) {
 };
 chefJoeyardine(6);
 
+// Boolean Function
+
+console.log("If I have enough time and all the ingredients, I want to make a chicken stir fry");
+	
+var	stirFry = function(minutes) {
+	var tomato = true;
+		onion = true;
+		chicken = false;
+		whatToCook = "string";
+	if ((minutes < 45) && (tomato && onion && chicken)) {
+		whatToCook = "I will make a delicious stir fry!";
+	} else {
+		whatToCook = "Oh no! I have no chicken, so I will have to make something else.";
+	}
+	return whatToCook;
+};
+
+var cookSomethingElse = stirFry(30);
+console.log(cookSomethingElse);
+
